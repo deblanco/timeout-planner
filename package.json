@@ -1,0 +1,36 @@
+{
+  "name": "timeout-planner",
+  "version": "1.0.0",
+  "description": "Plans and manage your setTimeout",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deblanco/timeout-planner.git"
+  },
+  "keywords": [
+    "js",
+    "typescript",
+    "settimeout",
+    "manage",
+    "plan",
+    "node",
+    "tasker",
+    "delayed"
+  ],
+  "author": "Daniel Blanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deblanco/timeout-planner/issues"
+  },
+  "homepage": "https://github.com/deblanco/timeout-planner#readme",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.2"
+  }
+}
